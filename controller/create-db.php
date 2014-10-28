@@ -6,7 +6,7 @@
         if ($connection->connect_error){
             die("Error" . $connection->connect_error);
         }
-        $exists=$connection->select_db($dbname);  
+        $exists=$connection->select_db($database);  
             if (!$exists){
                 echo "Database doesnt exist";
             }
