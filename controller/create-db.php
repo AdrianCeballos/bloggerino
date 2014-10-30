@@ -21,7 +21,13 @@
             else{
                 echo "Database already exists";
             }
+            /*creating a query that makes a table in the database to store info
+            then create an id for each blog post the table consists of id title and post not null
+             means it cannot be empty*/
             $query = $connection ->query("CREATE TABLE posts ("
-                ."id int(11) NOT NULL AUTO_INCREMENT ");
+                ."id int(11) NOT NULL AUTO_INCREMENT, "
+                    ."title varchar(255) NOT NULL,"
+                    ."post text NOT NULL"
+                    ."PRIMARY KEY (id))");
             
         $connection->close();
