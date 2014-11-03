@@ -35,7 +35,7 @@
             else {
                 echo "<p>$connection->error</p>";
             }
-            
+            /*So you know you check if it works with this code ^^^^^^^^^^^^^*/
                 
             
         $connection->close();
