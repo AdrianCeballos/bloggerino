@@ -1,6 +1,9 @@
+<?php
+    require_once (__DIR__ . "/../model/config.php");
+?>
 <h1>Create a blog post</h1>
 <!--form is used for user input-->
-<form>
+<form method="post" action="<?php echo $path . "controller/create-post.php"; ?>">
     <div>
         <!--Input makes the text box and label is its name next to it.-->
         <label for="title"> Title:</label>

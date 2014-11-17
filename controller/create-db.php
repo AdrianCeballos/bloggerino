@@ -1,6 +1,6 @@
 <?php
     /*looks at certain file and stops scripts if not there*/
-    require_once(__DIR__."/../model/database.php");
+    require_once(__DIR__."/../model/config.php");
     $connection = new mysqli($host, $username, $password);
         /*if else statement that lets you know if connection is working if it isnt it send error*/
         if ($connection->connect_error){
