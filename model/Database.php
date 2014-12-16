@@ -10,6 +10,7 @@ class Database {
     private $username;
     private $password;
     private $database;
+    public $error;
 
     /* saves the information of the variables the __construct lets us define or constructors correctly */
 
@@ -18,6 +19,27 @@ class Database {
         $this->username = $username;
         $this->password = $password;
         $this->database = $database;
+        
+        $this->connection = new mysqli($host, $username, $password);
+        /*if else statement that lets you know if connection is working if it isnt it send error*/
+        if ($this->connection->connect_error){
+            die("<p>Error" . $this->connection->connect_error."</p>");
+        }
+        /*Variable that selects the database*/
+        $exists = $this->connection->select_db($database);
+           /*checks to see if database exists if it doesnt it creates it*/
+            if (!$exists){
+                $query = $this->connection->query("CREATE DATABASE $database");
+            
+            /*tells you if you create it successfully*/
+            if ($query) {
+                echo "</p>Successfully created database " . $database ."</p>";
+            }
+            }
+            /*if it does exist then it echos*/
+            else{
+                echo "<p>Database already exists</p>";
+            }
     }
 
     public function openConnection() {
@@ -40,6 +62,10 @@ class Database {
         $this->openConnection();
         //this code is to query the database//
         $query =  $this->connection->query($string);
+        if (!$query){
+            $this->error = $this->connection->error;
+        }
+
         $this ->closeConnection();
         return $query;
     }

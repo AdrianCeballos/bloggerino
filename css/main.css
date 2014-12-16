@@ -9,21 +9,42 @@ and open the template in the editor.
 */
 
 .pls{
-    background-color: red;
+    text-align: center;
+    background:url(https://unsplash.imgix.net/reserve/nE6neNVdRPSIasnmePZe_IMG_1950.jpg?fit=crop&fm=jpg&h=700&q=75&w=1050);
+    background-repeat: no-repeat;
+	background-size: 100% 100%;
 }
 @media screen and (max-width:959px){
     .pls{
         width:100%;
-        background-color: red;
+        background:url(https://unsplash.com/photos/0G1r-Cg0zS8/download);
+        background-repeat: no-repeat;
+	background-size: 100% 100%;
     }
 }
 @media screen and (max-width:640px){
     .pls{
-        background-color: blue;
+        background:url(https://unsplash.com/photos/0G1r-Cg0zS8/download);
    }
 }
 @media screen and (max-width:320px){
     .pls{
-        background-color: green;
+        background:url(https://unsplash.com/photos/0G1r-Cg0zS8/download);
    }
+}
+.ayy{
+    font-size:100px;
+}
+.pls2{
+    text-align: center;
+    background:url(https://unsplash.imgix.net/reserve/nE6neNVdRPSIasnmePZe_IMG_1950.jpg?fit=crop&fm=jpg&h=700&q=75&w=1050);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.button{
+    background-color:black;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    padding: 10px;
 }

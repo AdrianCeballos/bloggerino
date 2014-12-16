@@ -6,7 +6,7 @@
             <file>file:/C:/xampp/htdocs/bloggerino/controller/create-post.php</file>
             <file>file:/C:/xampp/htdocs/bloggerino/model/config.php</file>
             <file>file:/C:/xampp/htdocs/bloggerino/controller/create-db.php</file>
-            <file>file:/C:/xampp/htdocs/bloggerino/model/Datatable.php</file>
+            <file>file:/C:/xampp/htdocs/bloggerino/model/Database.php</file>
         </group>
     </open-files>
 </project-private>

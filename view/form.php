@@ -1,7 +1,9 @@
 <?php
     require_once (__DIR__ . "/../model/config.php");
 ?>
-<h1>Create a blog post</h1>
+<body class="pls">
+    <a class="button" href="index.php">Home</a>
+<h1 class="ayy">Create a blog post</h1>
 <!--form is used for user input-->
 <form method="post" action="<?php echo $path . "controller/create-post.php"; ?>">
     <div>
@@ -20,3 +22,4 @@
         <button type="submit">Submit        </button>
     </div>
 </form>
+</body>
