@@ -1,4 +1,7 @@
+<link rel="stylesheet" type="text/css" href="../css/main.css">
+<body class="register">
 <a class="button" href="/bloggerino/index.php">Home</a>
+</body>
 <?php
     require_once (__DIR__."/../model/config.php");
 
