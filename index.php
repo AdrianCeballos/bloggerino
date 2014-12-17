@@ -7,8 +7,10 @@ and open the template in the editor.
 <body class="pls2">
     <ul>
     <a class="button" href="/bloggerino/index.php">Home</a>
+    <a class="button" href="/bloggerino/view/register-form.php">Register</a>
     <a class="button" href="/bloggerino/view/login-form.php">Login</a>
-    <a class="button" href="/bloggerino/index.php">Logout</a>
+    <a class="button" href="/bloggerino/controller/logout-user.php">Logout</a>
+    
     </ul>
 </body>
      

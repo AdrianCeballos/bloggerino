@@ -58,3 +58,10 @@ and open the template in the editor.
     padding:10px 100px 10px 100px;
     
 }
+.login{
+    text-align: center;
+    background:url(https://unsplash.imgix.net/photo-1414073875831-b47709631146?fit=crop&fm=jpg&h=700&q=75&w=1050);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+}

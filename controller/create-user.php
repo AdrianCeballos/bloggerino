@@ -1,3 +1,4 @@
+<a class="button" href="/bloggerino/index.php">Home</a>
 <?php
     require_once (__DIR__."/../model/config.php");
 
