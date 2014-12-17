@@ -1,6 +1,12 @@
 <?php
 // shows the config.php and only requires it once to use it
     require_once (__DIR__. "/../model/config.php");
+    require_once (__DIR__ . "/../controller/login-verification.php");
+    
+    if (!authenticateUser()){
+        header("Location:". $path ."index.php");
+        die();
+    }
 ?>
 <nav>
     <ul>

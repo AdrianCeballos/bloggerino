@@ -1,6 +1,11 @@
 <?php
     require_once (__DIR__ . "/../model/config.php");
     require_once (__DIR__ . "/../controller/login-verification.php");
+    
+    if (!authenticateUser()){
+        header("Location:". $path ."index.php");
+        die();
+    }
 ?>
 <body class="pls">
     <a class="button" href="index.php">Home</a>
