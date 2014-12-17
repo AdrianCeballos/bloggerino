@@ -39,7 +39,8 @@ and open the template in the editor.
     text-align: center;
     background:url(https://unsplash.imgix.net/reserve/nE6neNVdRPSIasnmePZe_IMG_1950.jpg?fit=crop&fm=jpg&h=700&q=75&w=1050);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 100% 100%;
+    color: white;
 }
 .button{
     background-color:black;
@@ -49,4 +50,10 @@ and open the template in the editor.
     padding: 10px;
     border: 2px solid;
     border-radius: 25px;
+}
+.post{
+    background-color: black;
+    opacity: 0.8;
+    padding:10px 100px 10px 100px;
+    
 }
