@@ -47,9 +47,10 @@ and open the template in the editor.
     text-decoration: none;
     color: white;
     font-size: 30px;
-    padding: 10px;
+    padding: 5px;
     border: 2px solid;
-    border-radius: 25px;
+    border-radius: 15px;
+    display: block-inline;
 }
 .post{
     background-color: black;

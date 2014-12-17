@@ -1,7 +1,8 @@
 <?php
 require_once (__DIR__."/../model/config.php");
 ?>
-<h1>Register</h1>
+<body>
+<h1>Login</h1>
 <form method="post" action="<?php echo $path . "controller/login-user.php"; ?>">
     
     <div>
@@ -17,5 +18,5 @@ require_once (__DIR__."/../model/config.php");
         <button type="submit">Submit</button>
     </div>
 </form>
-
+</body>
 

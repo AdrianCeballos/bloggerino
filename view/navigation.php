@@ -11,6 +11,6 @@
 <nav>
     <ul>
         <!--this is a link that links to the next page using php to get there since it is php-->
-        <li><a href="<?php echo $path. "post.php"?>">Blog post here</a></li>
+        <li><a class="button" href="<?php echo $path. "post.php"?>">Blog post here</a></li>
     </ul>
 </nav>

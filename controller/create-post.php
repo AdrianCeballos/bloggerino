@@ -16,3 +16,5 @@
     else{
         echo "<p>" . $_SESSION["connection"] ->error . "</p>";
     }
+?>
+<a class="button" href="/bloggerino/index.php">Home</a>

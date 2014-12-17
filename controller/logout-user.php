@@ -1,3 +1,5 @@
+
+
 <?php
     require_once (__DIR__. "/../model/config.php");
 
@@ -5,3 +7,4 @@
     
     session_destroy();
     header("Location:" . $path . "index.php");
+?>

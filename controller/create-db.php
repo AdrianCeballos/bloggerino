@@ -11,10 +11,10 @@
                     ."DateTime datetime NOT NULL,"
                     ."PRIMARY KEY (id))");
             if ($query){
-                echo "<p>Successfully created the table: posts</p>";
+                // echo "<p>Successfully created the table: posts</p>";
             }
             else {
-                echo "<p>".$_SESSION["connection"] ->error."</p>";
+               // echo "<p>".$_SESSION["connection"] ->error."</p>";
             }
             $query = $_SESSION["connection"]->query("CREATE TABLE users ("
                     . "id int(11) NOT NULL AUTO_INCREMENT,"
@@ -24,8 +24,8 @@
                     . "salt char(128) NOT NULL,"
                     . "PRIMARY KEY (id))");
             if ($query){
-                echo "<p>Successfully created the table users </p>";
+               // echo "<p>Successfully created the table users </p>";
             }
             else {
-                echo "<p>".$_SESSION["connection"] ->error."</p>";
+               // echo "<p>".$_SESSION["connection"] ->error."</p>";
             }
