@@ -47,4 +47,6 @@ and open the template in the editor.
     color: white;
     font-size: 30px;
     padding: 10px;
+    border: 2px solid;
+    border-radius: 25px;
 }
