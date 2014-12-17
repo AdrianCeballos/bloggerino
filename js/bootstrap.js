@@ -2115,3 +2115,6 @@ if (typeof jQuery === 'undefined') { throw new Error('Bootstrap\'s JavaScript re
 $(".menu").click(function(){
   $(this).toggleClass("open");
 });
+$( document ).ready(function() {
+    console.log( "ready!" );
+});

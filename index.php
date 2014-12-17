@@ -5,13 +5,19 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
 <body class="pls2">
-    <ul>
-    <a class="button" href="/bloggerino/index.php">Home</a>
-    <a class="button" href="/bloggerino/view/register-form.php">Register</a>
-    <a class="button" href="/bloggerino/view/login-form.php">Login</a>
-    <a class="button" href="/bloggerino/controller/logout-user.php">Logout</a>
-    
-    </ul>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <ul>
+        <a class="button" href="/bloggerino/index.php">Home</a>
+        <a class="button" href="/bloggerino/view/register-form.php">Register</a>
+        <a class="button" href="/bloggerino/view/login-form.php">Login</a>
+        <a class="button" href="/bloggerino/controller/logout-user.php">Logout</a>
+        </ul>
+        <script>
+            $( document ).ready(function() {
+                alert ("Welcome to homepage");
+            });
+        </script>
 </body>
      
         
