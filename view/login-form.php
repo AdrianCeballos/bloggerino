@@ -1,6 +1,7 @@
 <?php
 require_once (__DIR__."/../model/config.php");
 ?>
+<link rel="stylesheet" type="text/css" href="../css/main.css">
 <body class="login">
 <h1>Login</h1>
 <form method="post" action="<?php echo $path . "controller/login-user.php"; ?>">

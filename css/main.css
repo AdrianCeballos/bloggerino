@@ -65,3 +65,12 @@ and open the template in the editor.
     background-size: 100% 100%;
     color: white;
 }
+.register{
+    height:100%;
+    width: 100%;
+    text-align: center;
+    background:url(https://ununsplash.imgix.net/reserve/oY3ayprWQlewtG7N4OXl_DSC_5225-2.jpg?fit=crop&fm=jpg&h=700&q=75&w=1050);
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    color: white;
+}

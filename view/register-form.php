@@ -1,7 +1,8 @@
 <?php
     require_once (__DIR__ . "/../model/config.php");
 ?>
-
+<link rel="stylesheet" type="text/css" href="../css/main.css">
+<div class="register">
 <h1>Register</h1>
 <form method="post" action="<?php echo $path . "controller/create-user.php"; ?>">
     <div>
@@ -22,3 +23,4 @@
         <button type="submit">Submit</button>
     </div>
 </form>
+</div>

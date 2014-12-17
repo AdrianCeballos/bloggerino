@@ -1,4 +1,5 @@
-<body>
+<link rel="stylesheet" type="text/css" href="../css/main.css">
+<body class="login">
     <a class="button" href="/bloggerino/index.php">Home</a>
 </body>
 <?php
