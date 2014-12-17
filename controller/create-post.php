@@ -1,3 +1,7 @@
+<link rel="stylesheet" type="text/css" href="../css/main.css">
+<body class="pls2">
+<a class="button" href="/bloggerino/index.php">Home</a>
+</body>
 <?php
     //checks for this file
     
@@ -17,4 +21,3 @@
         echo "<p>" . $_SESSION["connection"] ->error . "</p>";
     }
 ?>
-<a class="button" href="/bloggerino/index.php">Home</a>
