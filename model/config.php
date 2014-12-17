@@ -4,6 +4,7 @@
 require_once(__DIR__ . "/database.php");
 $path = "/bloggerino/";
 session_start();
+session_regenerate_id(true);
 
 $host = "localhost";
 $username = "root";
